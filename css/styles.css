@@ -1,0 +1,155 @@
+:root{
+    --color-primary-dark:#011C44;
+    --color-primary-light:#FFFFFF;
+    --color-brand:#2B7FFF;
+    --color-secondary-dark:#4A4A4A;
+    --color-secondary-light-dark:#747272;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-cyrillic_latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+/* Global */
+
+body {
+    color: var(--color-primary-dark);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.17;
+}
+
+/* Logo text */
+
+.logo-text {
+    color: var(--color-brand);
+    font-family: 'Play', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 0.95;
+    text-decoration: none;
+}
+
+/* Link */
+
+.header-link {
+    color: var(--color-primary-dark);
+    text-decoration: none;
+}
+
+.header-link:hover {
+    color: var(--color-brand);
+    font-weight: 700;
+}
+
+.footer-link {
+    color: var(--color-primary-light);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: var(--color-brand);
+    font-weight: 700;
+}
+
+/* Button */
+
+.button {
+    background-color: var(--color-brand);
+    color: var(--color-primary-light);
+    font-weight: 600;
+}
+
+/* Hero title */
+
+.hero-title {
+    color: var(--color-brand);
+    font-family: 'Play', sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0.81;
+}
+
+.hero-cta {
+    color: var(--color-secondary-dark);
+    line-height: 1.5;
+}
+
+/* Section title */
+
+.section-title {
+    color: var(--color-primary-dark);
+    font-family: 'Play', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.section-title .accent {
+    color: var(--color-brand);
+}
+
+/* Transformation section */
+
+.transformation-text {
+    font-size: 22px;
+    line-height: 1.73;
+}
+
+.transformation-text .accent {
+    font-weight: 600;
+}
+
+/* Advantages section */
+
+.advantages-text {
+    color: #000000;
+    line-height: 1.5;
+}
+
+/* Procedures section */
+
+/* Contacts section */
+
+.form-title {
+    color: var(--color-primary-light);
+    font-size: 22px;
+}
+
+.form-title .accent {
+    color: var(--color-brand);
+}
+
+.contacts-policy {
+    color: var(--color-secondary-light-dark);
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* Footer section */
+
+.footer-copyright {
+    color:var(--color-secondary-light-dark);
+}
