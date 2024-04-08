@@ -280,6 +280,12 @@ header {
 
 /* Procedures section */
 
+.procedures-container {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
 .procedures-list {
     display: flex;
     gap: 16px;
@@ -294,6 +300,28 @@ header {
     height: 456px;
     border-radius: 4px 120px;
     background: linear-gradient(180.05deg, rgba(1, 28, 68, 0) 48.53%, rgba(1, 28, 68, 0.725825) 84.61%, var(--color-primary-dark) 101.39%);
+}
+
+/* Carousel */
+
+.carousel-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: transparent;
+    border-radius: 100%;
+    flex-shrink: 0;
+    cursor: pointer;
+    fill: var(--color-primary-dark);
+    border: 0.8px solid var(--color-primary-dark);
+}
+
+.carousel-button:hover {
+    background-color: var(--color-brand);
+    border: 0.8px solid var(--color-primary-light);
+    fill: var(--color-primary-light);
 }
 
 /* Contacts section */
