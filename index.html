@@ -9,167 +9,274 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a class="logo-text" href="./index.html">Beauty Zone</a>
-        <ul>
-          <li><a class="header-link" href="#">Про нас</a></li>
-          <li><a class="header-link" href="#">Чому ми</a></li>
-          <li><a class="header-link" href="#">Наші процедури</a></li>
-          <li><a class="header-link" href="#">Контакти</a></li>
-        </ul>
-        <address>
-          <ul>
-            <li>
-              <a href="tel:+380960000007">
-                <!-- Phone icon -->
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <!-- Facebook icon -->
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <!-- Instagram icon -->
-              </a>
-            </li>
-          </ul>
-        </address>
-      </nav>
+      <div class="container">
+        <div class="header-container">
+          <nav class="header-nav">
+            <a href="./index.html"
+              ><img src="./images/logo.svg" alt="Логотип Beauty Zone"
+            /></a>
+            <ul class="header-menu">
+              <li>
+                <a class="header-link" href="#transformation-section"
+                  >Про нас</a
+                >
+              </li>
+              <li>
+                <a class="header-link" href="#advantages-section">Чому ми</a>
+              </li>
+              <li>
+                <a class="header-link" href="#procedures-section"
+                  >Наші процедури</a
+                >
+              </li>
+              <li>
+                <a class="header-link" href="#contacts-section">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <address>
+            <ul class="header-icons-list">
+              <li>
+                <a href="tel:+380960000007">
+                  <svg class="header-icon" width="32px" height="32px">
+                    <use href="images/icons.svg#icon-phone-logo"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg class="header-icon" width="32px" height="32px">
+                    <use href="images/icons.svg#icon-facebook-logo"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg class="header-icon" width="32px" height="32px">
+                    <use href="images/icons.svg#icon-instagram-logo"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
     </header>
     <main>
-      <section id="Hero-section">
-        <p>Косметологічна клініка</p>
-        <h1 class="hero-title">Beauty Zone</h1>
-        <button class="button" type="button">Замовити дзвінок</button>
-        <p class="hero-cta">
-          Запишись та отримай безкоштовну консультацію нашого косметолога
-        </p>
+      <section class="section" id="Hero-section">
+        <div class="container">
+          <div class="hero-container">
+            <h1 class="hero-title">
+              Косметологічна клініка<br />
+              <span class="hero-title-accent">Beauty Zone</span>
+            </h1>
+            <button class="hero-button button" type="button">
+              Замовити дзвінок
+            </button>
+            <p class="hero-cta">
+              Запишись та отримай безкоштовну консультацію нашого косметолога
+            </p>
+          </div>
+        </div>
       </section>
-      <section id="Transformation-section">
-        <h2 class="section-title">
-          Перевтілюйтесь в <span class="accent">Beauty Zone!</span>
-        </h2>
-        <p class="transformation-text">
-          Наша косметологічна клініка пропонує вам професійні послуги з догляду
-          за шкірою обличчя та тіла.
-        </p>
-        <p class="transformation-text">
-          B <span class="accent">Beauty Zone</span> ми гарантуємо найвищі
-          стандарти якості та приємний сервіс. Наші косметологічні процедури та
-          препарати допоможуть вам підтримувати свою красу та молодість. З нами
-          краса назавжди!
-        </p>
-        <img src="./images/before.jpg" alt="Лице пацієнта до процедури" />
-        <img src="./images/after.jpg" alt="Лице пацієнта після процедури" />
-      </section>
-      <section id="Advantages-section">
-        <h2 class="section-title">
-          Чому люди <span class="accent">обирають нас</span>
-        </h2>
-        <ul>
-          <li>
-            <article>
-              <p class="advantages-text">
-                Всі наші косметологи мають вищу медичну освіту та стаж роботи
-                від 5 років
+      <section class="section" id="Transformation-section">
+        <div class="container">
+          <div class="transformation-container">
+            <div class="transformation-description">
+              <h2 class="transformation-title section-title">
+                Перевтілюйтесь в <span class="accent">Beauty Zone!</span>
+              </h2>
+              <p class="transformation-text">
+                Наша косметологічна клініка пропонує вам професійні послуги з
+                догляду за шкірою обличчя та тіла.
               </p>
-            </article>
-          </li>
-          <li>
-            <article>
-              <p class="advantages-text">
-                Використовуємо тільки професійне обладнання та косметику,
-                перевірену часом
+              <p class="transformation-text">
+                B <span class="accent">Beauty Zone</span> ми гарантуємо найвищі
+                стандарти якості <br />
+                та приємний сервіс. Наші косметологічні процедури та препарати
+                допоможуть вам підтримувати свою красу та молодість. <br />
+                З нами краса назавжди!
               </p>
-            </article>
-          </li>
-          <li>
-            <article>
-              <p class="advantages-text">
-                Наша мета - підкреслити переваги та приховати недоліки, а не
-                переробити
-              </p>
-            </article>
-          </li>
-        </ul>
+            </div>
+            <div class="transformation-images">
+              <ul>
+                <li>
+                  <img
+                    src="./images/before.jpg"
+                    alt="Лице пацієнта до процедури"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./images/after.jpg"
+                    alt="Лице пацієнта після процедури"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
-      <section id="Procedures-section">
-        <h2 class="section-title">
-          Наші <span class="accent">процедури</span>
-        </h2>
+      <section class="section" id="Advantages-section">
+        <div class="container">
+          <div class="align-center-container">
+            <h2 class="advantages-title section-title">
+              Чому люди <span class="accent">обирають нас</span>
+            </h2>
+            <ul class="advantages-list">
+              <li class="advantages-item">
+                <article class="advantages-card">
+                  <p class="advantages-text">
+                    Всі наші косметологи мають вищу медичну освіту та стаж
+                    роботи від 5 років
+                  </p>
+                </article>
+              </li>
+              <li class="advantages-item">
+                <article class="advantages-card">
+                  <p class="advantages-text">
+                    Використовуємо тільки професійне обладнання та косметику,
+                    перевірену часом
+                  </p>
+                </article>
+              </li>
+              <li class="advantages-item">
+                <article class="advantages-card">
+                  <p class="advantages-text">
+                    Наша мета - підкреслити переваги та приховати недоліки, а не
+                    переробити
+                  </p>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
-      <section id="Contacts-section">
-        <h2 class="section-title">Як нас <span class="accent">знайти</span></h2>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9240624124645!2d30.5176434!3d50.4425151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b7c7e643%3A0xa7b285afea3b0da2!2z0JXQm9CG0KIg0KLQo9Cg0KEg0JvQotCUINCi0KPQoNCY0KHQotCY0KfQndCY0Jkg0J7Qn9CV0KDQkNCi0J7QoCAvIEVMSVRFIFRPVVJT!5e0!3m2!1sru!2sgr!4v1712079276338!5m2!1sru!2sgr"
-          width="605"
-          height="481"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-        <h3 class="form-title">
-          Запишіться <span class="accent">безкоштовно</span> та отримайте
-          подарунок
-        </h3>
-        <p class="contacts-policy">
-          Натискаючи на кнопку я погоджуюсь з політикою конфіденційності
-        </p>
+      <section class="section" id="Procedures-section">
+        <div class="container">
+          <div class="align-center-container">
+            <h2 class="section-title">
+              Наші <span class="accent">процедури</span>
+            </h2>
+            <ul class="procedures-list">
+              <li class="procedures-item">
+                <article class="procedures-card">
+                  ##########################
+                </article>
+              </li>
+              <li class="procedures-item">
+                <article class="procedures-card">
+                  ##########################
+                </article>
+              </li>
+              <li class="procedures-item">
+                <article class="procedures-card">
+                  ##########################
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="Contacts-section">
+        <div class="container">
+          <div class="align-center-container">
+            <h2 class="section-title">
+              Як нас <span class="accent">знайти</span>
+            </h2>
+            <div class="contacts-content">
+              <iframe
+                class="contacts-map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9240624124645!2d30.5176434!3d50.4425151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b7c7e643%3A0xa7b285afea3b0da2!2z0JXQm9CG0KIg0KLQo9Cg0KEg0JvQotCUINCi0KPQoNCY0KHQotCY0KfQndCY0Jkg0J7Qn9CV0KDQkNCi0J7QoCAvIEVMSVRFIFRPVVJT!5e0!3m2!1sru!2sgr!4v1712079276338!5m2!1sru!2sgr"
+                width="605"
+                height="481"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <div class="contacts-card">
+                <h3 class="form-title">
+                  Запишіться <span class="accent">безкоштовно</span> та
+                  отримайте подарунок
+                </h3>
+                <p class="contacts-policy">
+                  Натискаючи на кнопку я погоджуюсь з політикою конфіденційності
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-    <footer>
-      <nav>
-        <a class="logo-text" href="./index.html">Beauty Zone</a>
-        <ul>
-          <li><a class="footer-link" href="#">Про нас</a></li>
-          <li><a class="footer-link" href="#">Чому ми</a></li>
-          <li><a class="footer-link" href="#">Наші процедури</a></li>
-          <li><a class="footer-link" href="#">Контакти</a></li>
-        </ul>
-        <address>
-          <ul>
-            <li>
-              <a class="footer-link" href="tel:+380960000007"
-                >+ 38 (096) 000 00 07</a
-              >
-            </li>
-            <li>
-              <a class="footer-link" href="mailto:beautyzone@gmail.com"
-                >beautyzone@gmail.com</a
-              >
-            </li>
-            <li>
-              <a
-                class="footer-link"
-                href="https://maps.app.goo.gl/mwJSmvJHAnoVzNAJ7"
-                >Україна, м. Київ, вул. Тараса Шевченка 5</a
-              >
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <a href="tel:+380960000007">
-                <!-- Phone icon -->
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <!-- Facebook icon -->
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <!-- Instagram icon -->
-              </a>
-            </li>
-          </ul>
-          <a class="footer-link" href="#">Політика конфіденційності</a>
-          <p class="footer-copyright">&copy; 2022 Дані захищені</p>
-        </address>
-      </nav>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <nav class="footer-nav">
+            <div class="footer-logo">
+              <a href="./index.html"
+                ><img src="./images/logo.svg" alt="Логотип Beauty Zone"
+              /></a>
+            </div>
+            <ul class="footer-menu">
+              <li><a class="footer-link" href="#">Про нас</a></li>
+              <li><a class="footer-link" href="#">Чому ми</a></li>
+              <li><a class="footer-link" href="#">Наші процедури</a></li>
+              <li><a class="footer-link" href="#">Контакти</a></li>
+            </ul>
+          </nav>
+          <address class="footer-address">
+            <ul class="address-list">
+              <li>
+                <a class="footer-link" href="tel:+380960000007"
+                  >+ 38 (096) 000 00 07</a
+                >
+              </li>
+              <li>
+                <a class="footer-link" href="mailto:beautyzone@gmail.com"
+                  >beautyzone@gmail.com</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-link"
+                  href="https://maps.app.goo.gl/mwJSmvJHAnoVzNAJ7"
+                  >Україна, м. Київ, вул. Тараса Шевченка 5</a
+                >
+              </li>
+              <li>
+                <ul class="footer-icons-list">
+                  <li>
+                    <a href="tel:+380960000007">
+                      <svg class="footer-icon" width="42px" height="42px">
+                        <use href="images/icons.svg#icon-phone-logo"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="footer-icon" width="42px" height="42px">
+                        <use href="images/icons.svg#icon-facebook-logo"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="footer-icon" width="42px" height="42px">
+                        <use href="images/icons.svg#icon-instagram-logo"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="address-policy">
+              <a class="footer-link" href="#">Політика конфіденційності</a>
+              <p class="footer-copyright">&copy; 2022 Дані захищені</p>
+            </div>
+          </address>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
